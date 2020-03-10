@@ -48,5 +48,6 @@ if page.status_code == 200:
 
     if round(temperature_convertor(feels_like)) < 0:
         print("Feels like: {}{}".format(round(temperature_convertor(feels_like)), degree_sign))
+    print("Feels like: {}{}".format(round(temperature_convertor(feels_like)), degree_sign))
 else:
-    print("Something went wrong! No weather forecast available!")
+    print("ERROR: No weather forecast available!")
