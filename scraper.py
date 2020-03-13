@@ -43,11 +43,6 @@ def temperature_convertor(temperature):
 if page.status_code == 200:
     print("Location:{}".format(location_formatter(location)))
     print("Temperature: {}{} {}".format(round(temperature_convertor(temperature)), degree_sign, phrase))
-    if round(temperature_convertor(temperature)) < 0:
-        print("Temperature: {}{} {}".format(round(temperature_convertor(temperature)), degree_sign, phrase))
-
-    if round(temperature_convertor(feels_like)) < 0:
-        print("Feels like: {}{}".format(round(temperature_convertor(feels_like)), degree_sign))
     print("Feels like: {}{}".format(round(temperature_convertor(feels_like)), degree_sign))
 else:
     print("ERROR: No weather forecast available!")
