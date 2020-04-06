@@ -15,7 +15,8 @@ degree_sign = "\u00b0"
 
 
 def location_formatter(location):
-    """ The role of this function is to fix the location display.
+    """
+        The role of this function is to fix the location display.
         - by default the location is displayed in the following way:
           - "Sofia, Sofia, Bulgaria"
         One "Sofia" is not needed, so this function will strip the unneeded "Sofia"
@@ -29,7 +30,8 @@ def location_formatter(location):
     return location
 
 def temperature_convertor(temperature):
-    """Simple metric convertor from Fahrenheit to Celsius
+    """
+       Simple metric convertor from Fahrenheit to Celsius
        This function takes:
        :parameter temperature in Fahrenheit
        :returns temperature in Celsius
