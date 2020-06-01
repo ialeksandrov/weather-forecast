@@ -7,7 +7,7 @@ PAGE = requests.get("https://weather.com/weather/today/l/ \
                     3cc6a08e912b5b121b32615df8da9c658a6e469de11b2fa805e0fcb14f8b87da")
 # Extracting data
 soup = BeautifulSoup(PAGE.content, 'html.parser')
-location = soup.find('h1', class_="h4 today_nowcard-location")
+location = soup.find('h1', class_="h4 today_nowcard-location").text
 temperature = soup.find('div', class_='today_nowcard-temp').text
 PHRASE = soup.find('div', class_='today_nowcard-phrase').text
 feels_like = soup.find('span', class_='deg-feels').text
