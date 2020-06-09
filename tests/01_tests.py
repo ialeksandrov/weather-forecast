@@ -15,9 +15,9 @@ class TestScraper(unittest.TestCase):
         page = requests.get("https://weather.com/weather/today/l/ \
                                             3cc6a08e912b5b121b32615df8da9c658a6e469de11b2fa805e0fcb14f8b87da")
         soup = BeautifulSoup(page.content, 'html.parser')
-        location = soup.find('h1', class_="h4 today_nowcard-location").text
+        location = soup.find('h1', class_="_-_-components-src-organism-CurrentConditions-CurrentConditions--location--1YWj_").text
 
-        self.assertEqual(location_formatter(location), " Sofia, Bulgaria")
+        self.assertEqual(location_formatter(location), " Sofia, Bulgaria Weather")
 
 
 if __name__ == '__main__':
