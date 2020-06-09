@@ -9,8 +9,6 @@ PAGE = requests.get("https://weather.com/weather/today/l/ \
 soup = BeautifulSoup(PAGE.content, 'html.parser')
 location = soup.find('h1', class_="_-_-components-src-organism-CurrentConditions-CurrentConditions--location--1YWj_").text
 temperature = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--primary--2DOqs').text
-PHRASE = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--phraseValue--mZC_p').text
-
 
 
 def location_formatter(location):
