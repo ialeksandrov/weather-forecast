@@ -11,6 +11,7 @@ location = soup.find('h1', class_="_-_-components-src-organism-CurrentConditions
 temperature = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--primary--2DOqs').text
 phrase = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--precipValue--2aJSf').text
 feels_like = soup.find('span', class_='_-_-components-src-organism-TodayDetailsCard-TodayDetailsCard--feelsLikeTempValue--2icPt').text
+wind_speed = soup.find('span', class_='_-_-components-src-atom-WeatherData-Wind-Wind--windWrapper--3Ly7c').text
 
 
 def location_formatter(location):
@@ -34,5 +35,6 @@ if PAGE.status_code == 200:
     print("Temperature: {}".format(temperature))
     print("Feels like: {}".format(feels_like))
     print("Additional info: {}".format(phrase))
+    print("Wind: {}".format(wind_speed))
 else:
     print("ERROR: No weather forecast available!")
