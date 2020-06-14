@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 from scraper import location_formatter
 
+
 class TestScraper(unittest.TestCase):
 
     def test_get_request_to_the_weather_site(self):

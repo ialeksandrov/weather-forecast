@@ -9,6 +9,7 @@ PAGE = requests.get("https://weather.com/weather/today/l/ \
 soup = BeautifulSoup(PAGE.content, 'html.parser')
 location = soup.find('h1', class_="_-_-components-src-organism-CurrentConditions-CurrentConditions--location--1YWj_").text
 temperature = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--primary--2DOqs').text
+phrase = soup.find('div', class_='_-_-components-src-organism-CurrentConditions-CurrentConditions--precipValue--2aJSf').text
 
 
 def location_formatter(location):
@@ -30,5 +31,6 @@ def location_formatter(location):
 if PAGE.status_code == 200:
     print("Location:{}".format(location_formatter(location)))
     print("Temperature: {}".format(temperature))
+    print("Additional info: {}".format(phrase))
 else:
     print("ERROR: No weather forecast available!")
