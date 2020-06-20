@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import requests
 from bs4 import BeautifulSoup
 
@@ -21,7 +20,7 @@ def location_formatter(location):
           - "Sofia, Sofia, Bulgaria"
         One "Sofia" is not needed, so this function will strip the unneeded "Sofia"
 
-        :returns "Sofia, Bulgaria"
+        :returns "Sofia, Bulgaria Weather"
     """
     location = location.split(',')
     location = location[1:]
