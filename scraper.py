@@ -28,7 +28,7 @@ def location_formatter(location):
 
     return location
 
-
+# Test comment
 if PAGE.status_code == 200:
     print("Location:{}".format(location_formatter(location)))
     print("Temperature: {}".format(temperature))
