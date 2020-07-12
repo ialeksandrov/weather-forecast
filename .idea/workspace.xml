@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="Change the env to Linux">
+    <list default="true" id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="Adding gitignore file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594241686034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding gitignore file">
+      <created>1594307320045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594307320045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +199,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding new venv" />
     <MESSAGE value="Change the env to Linux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the env to Linux" />
+    <MESSAGE value="Adding gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding gitignore file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="897" y="416" width="602" height="447" key="#Vim_Emulation" timestamp="1594305713089">
