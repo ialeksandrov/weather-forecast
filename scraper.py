@@ -29,11 +29,12 @@ def location_formatter(location):
     return location
 
 
-if PAGE.status_code == 200:
-    print("Location:{}".format(location_formatter(location)))
-    print("Temperature: {}".format(temperature))
-    print("Feels like: {}".format(feels_like))
-    print("Additional info: {}".format(phrase))
-    print("Wind: {}".format(wind_speed))
-else:
-    print("ERROR: No weather forecast available!")
+if __name__ == "__main__":
+    if PAGE.status_code == 200:
+        print("Location:{}".format(location_formatter(location)))
+        print("Temperature: {}".format(temperature))
+        print("Feels like: {}".format(feels_like))
+        print("Additional info: {}".format(phrase))
+        print("Wind: {}".format(wind_speed))
+    else:
+        print("ERROR: No weather forecast available!")
