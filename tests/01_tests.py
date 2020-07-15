@@ -18,7 +18,7 @@ class TestScraper(unittest.TestCase):
         soup = BeautifulSoup(page.content, 'html.parser')
         location = soup.find('h1', class_="_-_-components-src-organism-CurrentConditions-CurrentConditions--location--1YWj_").text
 
-        self.assertEqual(location_formatter(location), " Sofia, Bulgaria Weather")
+        self.assertEqual(location_formatter(location), "Sofia, Bulgaria Weather")
 
 
 if __name__ == '__main__':

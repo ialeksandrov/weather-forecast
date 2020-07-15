@@ -23,8 +23,9 @@ def location_formatter(location):
         :returns "Sofia, Bulgaria Weather"
     """
     location = location.split(',')
-    location = location[1:]
+    location = location[0:]
     location = ",".join(location)
+    location = location.replace(" Sia,", "")
 
     return location
 
