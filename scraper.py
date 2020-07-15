@@ -25,7 +25,7 @@ def location_formatter(location):
     location = location.split(',')
     location = location[0:]
     location = ",".join(location)
-    location = location.replace(" Sia,", "")
+    location = location.replace("Sia,", "")
 
     return location
 
