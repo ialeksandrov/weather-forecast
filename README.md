@@ -5,3 +5,10 @@
 - Display temperature
 - Display "Feels like" temperature
 - Display "Wind speed"
+
+
+##Sample output
+Location Sofia  
+Temperature 24°   
+Feels like 24°  
+Wind speed: 2m/s
