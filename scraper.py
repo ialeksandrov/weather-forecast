@@ -33,6 +33,6 @@ if __name__ == "__main__":
         print("Location{}".format(location_formatter(location)))
         print("Temperature {}".format(temperature))
         print(feels_like)
-        print("Wind: {}".format(wind_speed))
+        print("Wind speed: {}".format(wind_speed))
     else:
         print("ERROR: No weather forecast available!")
