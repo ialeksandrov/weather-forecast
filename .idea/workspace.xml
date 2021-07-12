@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="Adjust location formatter which fix the failing test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/01_tests.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2609d1e4860ba6f2f288d2caf3ab8d6a94cf069b" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1YfbtZEkR9IN9eGqxCB9EAZMhDm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IAlexandrov\PycharmProjects\experiments\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in 01_tests.py">
+    <configuration name="scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 01_tests.TestScraper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;01_tests.TestScraper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 01_tests.TestScraper.test_extraction_values" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;01_tests.TestScraper.test_extraction_values&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for 01_tests.TestScraper.test_get_request_to_the_weather_site" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;01_tests.TestScraper.test_get_request_to_the_weather_site&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in 01_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="experiments" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/01_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in 01_tests.py" />
+        <item itemvalue="Python.scraper" />
+        <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_get_request_to_the_weather_site" />
+        <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_extraction_values" />
+        <item itemvalue="Python tests.Unittests for 01_tests.TestScraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="" />
+      <created>1583336810610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583336810610</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding new venv">
+      <created>1591735070949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591735070949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change the env to Linux">
+      <created>1594241686034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594241686034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding gitignore file">
+      <created>1594307320045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594307320045</updated>
+    </task>
+    <task id="LOCAL-00004" summary="remove test comment">
+      <created>1594543341324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594543341324</updated>
+    </task>
+    <task id="LOCAL-00005" summary="slight change in scraper.py">
+      <created>1594543603917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594543603917</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adjust location formatter which fix the failing test">
+      <created>1594835789097</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594835789097</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding new venv" />
+    <MESSAGE value="Change the env to Linux" />
+    <MESSAGE value="Adding gitignore file" />
+    <MESSAGE value="remove test comment" />
+    <MESSAGE value="slight change in scraper.py" />
+    <MESSAGE value="Adjust location formatter which fix the failing test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjust location formatter which fix the failing test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="897" y="416" width="602" height="447" key="#Vim_Emulation" timestamp="1594305713089">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="897" y="416" width="602" height="447" key="#Vim_Emulation/72.27.1848.1053@72.27.1848.1053" timestamp="1594305713089" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1591340916322">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591340916322" />
+    <state width="1837" height="258" key="GridCell.Tab.0.bottom" timestamp="1594837175154">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591735370411" />
+    <state width="1837" height="258" key="GridCell.Tab.0.bottom/60.27.1860.1053@60.27.1860.1053" timestamp="1594837175154" />
+    <state width="1377" height="258" key="GridCell.Tab.0.bottom/72.27.1848.1053@72.27.1848.1053" timestamp="1594271514954" />
+    <state width="1837" height="258" key="GridCell.Tab.0.center" timestamp="1594837175153">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591735370411" />
+    <state width="1837" height="258" key="GridCell.Tab.0.center/60.27.1860.1053@60.27.1860.1053" timestamp="1594837175153" />
+    <state width="1377" height="258" key="GridCell.Tab.0.center/72.27.1848.1053@72.27.1848.1053" timestamp="1594271514953" />
+    <state width="1837" height="258" key="GridCell.Tab.0.left" timestamp="1594837175153">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591735370411" />
+    <state width="1837" height="258" key="GridCell.Tab.0.left/60.27.1860.1053@60.27.1860.1053" timestamp="1594837175153" />
+    <state width="1377" height="258" key="GridCell.Tab.0.left/72.27.1848.1053@72.27.1848.1053" timestamp="1594271514953" />
+    <state width="1837" height="258" key="GridCell.Tab.0.right" timestamp="1594837175154">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591735370411" />
+    <state width="1837" height="258" key="GridCell.Tab.0.right/60.27.1860.1053@60.27.1860.1053" timestamp="1594837175154" />
+    <state width="1377" height="258" key="GridCell.Tab.0.right/72.27.1848.1053@72.27.1848.1053" timestamp="1594271514953" />
+    <state x="405" y="100" width="1022" height="737" key="SettingsEditor" timestamp="1594240951370">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591340694682" />
+    <state x="405" y="100" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1594240951370" />
+    <state x="582" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1594835791861">
+      <screen x="60" y="27" width="1860" height="1053" />
+    </state>
+    <state x="582" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/60.27.1860.1053@60.27.1860.1053" timestamp="1594835791861" />
+    <state x="591" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.1053@72.27.1848.1053" timestamp="1594275302669" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591340443352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591340443352" />
+    <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1594241216968">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="721" y="445" width="540" height="223" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1594241216968" />
+  </component>
+</project>
