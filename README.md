@@ -5,6 +5,7 @@
 - Display temperature
 - Display "Feels like" temperature
 - Display "Wind speed"
+- Display "Wind speed"
 
 
 ##Sample output
