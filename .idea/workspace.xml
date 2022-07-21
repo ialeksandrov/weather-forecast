@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="update dep versions" />
+    <list default="true" id="7917955a-449b-49b0-9f93-5bb49fb526d0" name="Default Changelist" comment="Fix README.md">
+      <change afterPath="$PROJECT_DIR$/tests/test_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/01_tests.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +51,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="1YfbtZEkR9IN9eGqxCB9EAZMhDm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,13 +63,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ivan/practice/weather-forecast",
+    "last_opened_file_path": "/home/ivan/practice/password-manager",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/scraper" />
       <recent name="C:\Users\IAlexandrov\PycharmProjects\experiments\tests" />
     </key>
   </component>
@@ -91,14 +98,15 @@
       <method v="2" />
     </configuration>
     <configuration name="Unittests for 01_tests.TestScraper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="experiments" />
+      <module name="weather-forecast" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;01_tests.TestScraper&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
@@ -118,22 +126,23 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for 01_tests.TestScraper.test_get_request_to_the_weather_site" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="experiments" />
+    <configuration name="Unittests for tests.test_scraper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="weather-forecast" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;01_tests.TestScraper.test_get_request_to_the_weather_site&quot;" />
+      <option name="_new_target" value="&quot;tests.test_scraper&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in 01_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="experiments" />
+    <configuration name="Unittests for tests.test_scraper" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="weather-forecast" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -141,25 +150,40 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/01_tests.py&quot;" />
+      <option name="_new_target" value="&quot;tests.test_scraper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_scraper.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="weather-forecast" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_scraper.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.scraper" />
-      <item itemvalue="Python tests.Unittests for 01_tests.TestScraper" />
+      <item itemvalue="Python tests.Unittests for tests.test_scraper" />
+      <item itemvalue="Python tests.Unittests in test_scraper.py" />
       <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_extraction_values" />
-      <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_get_request_to_the_weather_site" />
-      <item itemvalue="Python tests.Unittests in 01_tests.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.scraper" />
-        <item itemvalue="Python tests.Unittests in 01_tests.py" />
-        <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_get_request_to_the_weather_site" />
+        <item itemvalue="Python tests.Unittests in test_scraper.py" />
+        <item itemvalue="Python tests.Unittests for tests.test_scraper" />
         <item itemvalue="Python tests.Unittests for 01_tests.TestScraper.test_extraction_values" />
-        <item itemvalue="Python tests.Unittests for 01_tests.TestScraper" />
+        <item itemvalue="Python tests.Unittests for tests.test_scraper" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657826769037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fix README.md">
+      <created>1657827292649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657827292649</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +307,7 @@
     <MESSAGE value="Revert &quot;Add .idea directory to gitignore 2&quot;&#10;&#10;This reverts commit 19704394" />
     <MESSAGE value="." />
     <MESSAGE value="update dep versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dep versions" />
+    <MESSAGE value="Fix README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix README.md" />
   </component>
 </project>
