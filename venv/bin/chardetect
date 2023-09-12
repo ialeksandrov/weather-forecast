@@ -1,4 +1,4 @@
-#!/home/ivan/practice/weather-forecast/venv/bin/python3
+#!/home/ivan/practice/weather-forecast/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
